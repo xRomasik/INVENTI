@@ -1,0 +1,30 @@
+.post-widget-container {
+  margin-top: 30px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: bold;
+  overflow-y: auto;
+  height: 90vh;
+  width: 100%;
+}
+
+.post-title {
+  border: none;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: start;
+}
+
+.post-body {
+  padding: 10px;
+}
+
+.post-body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

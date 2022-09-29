@@ -1,0 +1,64 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url("../../public/spaceSmall.jpg");
+  background-repeat: no-repeat;
+}
+
+dl {
+  display: grid;
+  margin: 0;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+  grid-column-start: 1;
+}
+
+dd {
+  grid-column-start: 2;
+}
+
+button {
+  border: 2px solid black;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: deepskyblue;
+}
+
+button:hover {
+  opacity: 0.65;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8df10;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  border: 0.5px solid lightblue;
+  border-radius: 3px;
+}
+
+.image-placeholder {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+}
+
+.card {
+  margin: 0 15vh 15px 15vh;
+  background-color: #ffffff;
+  color: rgb(0 0 0);
+  font-weight: bolder;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+
+.hidden {
+  display: none;
+}

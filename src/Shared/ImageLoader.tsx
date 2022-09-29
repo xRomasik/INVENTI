@@ -2,7 +2,9 @@ import { useRef, useState } from 'react';
 
 export const ImageLoader = (): JSX.Element => {
   const [imgLoading, setImageLoading] = useState(true);
-  const ref = useRef(new Date());
+  const ref = useRef(new Date().getTime());
+
+  console.log(ref.current);
 
   return (
     <>

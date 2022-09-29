@@ -31,7 +31,7 @@ export const PostDetail = (props: PostDetailProps): JSX.Element => {
               <dt>User ID:</dt>
               <dd>{post.userId}</dd>
             </dl>
-            <ImageLoader key={post.id} />
+            <ImageLoader />
           </header>
           <p>{post.body}</p>
           <button onClick={() => dispatch(deletePost(post.id))}>
